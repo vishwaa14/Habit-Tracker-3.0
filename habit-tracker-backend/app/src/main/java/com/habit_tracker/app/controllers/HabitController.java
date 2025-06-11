@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/users/{userId}/habits") // Changed base path
-@CrossOrigin(origins = "http://localhost:3000") // Keep for development, consider global config later
+// @CrossOrigin(origins = "http://localhost:3000") // Commented out or removed due to global WebConfig
 public class HabitController {
 
     @Autowired
