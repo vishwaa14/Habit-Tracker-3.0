@@ -10,7 +10,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "@/components/ui/table"; // Lowercase 't' in table
 import { toast } from "sonner";
 
 // Type for a single habit - consistent with dashboard page
